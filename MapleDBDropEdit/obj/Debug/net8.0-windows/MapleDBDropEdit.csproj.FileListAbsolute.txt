@@ -37,3 +37,4 @@ C:\Users\David\source\repos\MapleDBDropEdit\MapleDBDropEdit\bin\Debug\net8.0-win
 C:\Users\David\source\repos\MapleDBDropEdit\MapleDBDropEdit\obj\Debug\net8.0-windows\MapleDBDropEdit.DropDataEdit.resources
 C:\Users\David\source\repos\MapleDBDropEdit\MapleDBDropEdit\obj\Debug\net8.0-windows\MapleDBDropEdit.EditConnections.resources
 C:\Users\David\source\repos\MapleDBDropEdit\MapleDBDropEdit\bin\Debug\net8.0-windows\reWZ.dll
+C:\Users\David\source\repos\MapleDBDropEdit\MapleDBDropEdit\obj\Debug\net8.0-windows\MapleDBDropEdit.sourcelink.json

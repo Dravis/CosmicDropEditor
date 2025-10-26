@@ -28,12 +28,11 @@ namespace MapleDBDropEdit
             Config.Username = textBoxUsername.Text;
             Config.Password = textBoxPassword.Text;
             Config.WZPath = textBoxWzPath.Text;
+            if (!Config.WZPath.EndsWith('\\'))
+                Config.WZPath += "\\";
+
             this.Close();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

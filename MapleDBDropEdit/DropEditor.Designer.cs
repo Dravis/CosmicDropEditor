@@ -511,7 +511,7 @@
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.Fixed3D;
             Name = "DropEditor";
-            Text = "DB Item Editor";
+            Text = "Maple Drop Editor";
             groupBox1.ResumeLayout(false);
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();

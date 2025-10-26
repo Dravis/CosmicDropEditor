@@ -324,6 +324,9 @@ namespace MapleDBDropEdit
         {
             EditConnections editConnectionsForm = new EditConnections();
             editConnectionsForm.ShowDialog();
+
+            databaseConfigs = DatabaseConfigManager.Load();
+            UpdateConnectionCombobox();
         }
     }
 }

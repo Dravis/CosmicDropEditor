@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MapleDBDropEdit")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73c5fb8c71c4f26234a3f8659e0d61fbe07070cc")]
 [assembly: System.Reflection.AssemblyProductAttribute("MapleDBDropEdit")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MapleDBDropEdit")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

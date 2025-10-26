@@ -77,7 +77,7 @@
             buttonCancel.Location = new Point(12, 163);
             buttonCancel.Name = "buttonCancel";
             buttonCancel.Size = new Size(75, 23);
-            buttonCancel.TabIndex = 4;
+            buttonCancel.TabIndex = 7;
             buttonCancel.Text = "Cancel";
             buttonCancel.UseVisualStyleBackColor = true;
             // 
@@ -159,7 +159,6 @@
             textBoxWzPath.Name = "textBoxWzPath";
             textBoxWzPath.Size = new Size(238, 23);
             textBoxWzPath.TabIndex = 5;
-            textBoxWzPath.TextChanged += textBox1_TextChanged;
             // 
             // ConnectForm
             // 
