@@ -6,6 +6,7 @@ Ultimately, it should be pretty easy to adapt to any server source.
 ##### Requirement  
 Visual Studio Community 2022 or higher  
 .Net8  
+A working Cosmic-based Server  
 ##### Steps  
 Open in Visual Studio  
 Run the program  
