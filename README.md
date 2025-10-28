@@ -10,3 +10,5 @@ A working Cosmic-based Server
 ##### Steps  
 Open in Visual Studio  
 Run the program  
+
+[<img src="image/editor_preview.PNG">]
