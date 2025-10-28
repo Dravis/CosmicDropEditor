@@ -190,7 +190,6 @@ namespace MapleDBDropEdit
                     {
                         toolStripStatusLabel.Text = "Connected to Database";
                         wzProvider = new WZDataProvider(config.WZPath);
-                        wzProvider.GetAllItemIDNames();
                         SetupMobSummaryList();
                     }
                 }

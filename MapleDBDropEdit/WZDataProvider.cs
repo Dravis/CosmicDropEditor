@@ -162,7 +162,12 @@ namespace MapleDBDropEdit
             {
                 if (wzObj is WZSubProperty)
                 {
-                    items.Add(wzObj.Name, wzObj["name"].ValueOrDefault<string>(""));
+                    try
+                    {
+                        items.Add(wzObj.Name, wzObj["name"].ValueOrDefault<string>(""));
+                    }
+                    catch
+                    { }
                 }
             }
 
@@ -171,7 +176,12 @@ namespace MapleDBDropEdit
             {
                 if (wzObj is WZSubProperty)
                 {
-                    items.Add(wzObj.Name, wzObj["name"].ValueOrDefault<string>(""));
+                    try
+                    {
+                        items.Add(wzObj.Name, wzObj["name"].ValueOrDefault<string>(""));
+                    }
+                    catch
+                    { }
                 }
             }
 
@@ -180,7 +190,12 @@ namespace MapleDBDropEdit
             {
                 if (wzObj is WZSubProperty)
                 {
-                    items.Add(wzObj.Name, wzObj["name"].ValueOrDefault<string>(""));
+                    try
+                    {
+                        items.Add(wzObj.Name, wzObj["name"].ValueOrDefault<string>(""));
+                    }
+                    catch
+                    { }
                 }
             }
 
@@ -189,7 +204,12 @@ namespace MapleDBDropEdit
             {
                 if (wzObj is WZSubProperty)
                 {
-                    items.Add(wzObj.Name, wzObj["name"].ValueOrDefault<string>(""));
+                    try
+                    {
+                        items.Add(wzObj.Name, wzObj["name"].ValueOrDefault<string>(""));
+                    }
+                    catch
+                    { }
                 }
             }
 
@@ -200,7 +220,12 @@ namespace MapleDBDropEdit
                 {
                     if (wzObj is WZSubProperty)
                     {
-                        items.Add(wzObj.Name, wzObj["name"].ValueOrDefault<string>(""));
+                        try
+                        {
+                            items.Add(wzObj.Name, wzObj["name"].ValueOrDefault<string>(""));
+                        }
+                        catch
+                        { }
                     }
                 }
             }
