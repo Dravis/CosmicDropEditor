@@ -1,4 +1,4 @@
-﻿using MySql.Data.MySqlClient;
+﻿using MySqlConnector;
 using System.Data;
 
 namespace MapleDBDropEdit
@@ -9,7 +9,7 @@ namespace MapleDBDropEdit
 
         public MapleDatabase()
         {
-            conn = new MySql.Data.MySqlClient.MySqlConnection();
+            conn = new MySqlConnection();
         }
 
         public void Connect(string host, string port, string database, string user, string password)
@@ -20,7 +20,7 @@ namespace MapleDBDropEdit
                 conn.ConnectionString = connectionString;
                 conn.Open();
             }
-            catch (MySql.Data.MySqlClient.MySqlException ex)
+            catch (MySqlException ex)
             {
                 MessageBox.Show(ex.Message);
             }
@@ -32,7 +32,7 @@ namespace MapleDBDropEdit
             {
                 conn.Close();
             }
-            catch (MySql.Data.MySqlClient.MySqlException ex)
+            catch (MySqlException ex)
             {
                 MessageBox.Show(ex.Message);
             }
